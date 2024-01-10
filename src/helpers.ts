@@ -1,5 +1,6 @@
 import type { NextApiResponse } from "next";
 import https from "https";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export function setSvgHeader(res: NextApiResponse) {
   res.setHeader("Content-Type", "image/svg+xml");
