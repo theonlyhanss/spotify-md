@@ -48,8 +48,8 @@ export default function NowPLaying({
           style={{
             alignItems: 'center',
             display: 'flex',
-            background: 'rgb(30,215,96)',
-            border: '1px solid rgba(125, 125, 125, .3)',
+            background: 'rgb(255,255,255,.6)',
+            border: '1px solid rgb(30,215,96)',
             borderRadius: '.3rem',
             margin: '.5rem 0',
             padding: '.6rem',
